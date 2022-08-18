@@ -1,0 +1,22 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header img{
+display: block;
+  margin: 40px 0 0 20px;
+}
+
+.links{
+  display: flex;
+  gap: 40px;
+  font-size: 1.4rem;
+  justify-content: right;
+  margin: 50px 20px 0 0;
+}
+
+.links a{
+  text-decoration: none;
+  color: #fff;
+}
