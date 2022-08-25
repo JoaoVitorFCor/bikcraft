@@ -1,0 +1,59 @@
+.lojas-titulo{
+  margin-bottom: 120px;
+}
+
+.lojas{
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.loja-rj, .loja-sp{
+  background-color: var(--cor-0);
+  border-radius: 4px;
+}
+
+.loja-rj h3, .loja-sp h3{
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+
+.loja-rj ul, .loja-sp ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 22px;
+  padding-left: 40px;
+  
+}
+
+
+.loja-rj li, .loja-sp li{
+  padding-left:10px;
+  margin-bottom: 8px ;
+}
+
+.loja-rj li:nth-child(even),
+.loja-sp li:nth-child(even){
+  grid-row: 2;
+}
+
+.loja-rj p, .loja-sp p{
+  padding-top: 20px;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  background: url(../../img/icones/horario.svg) no-repeat 30px 22px;
+}
+
+@media(max-width:800px){
+  .lojas{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:600px){
+  .loja-rj ul, .loja-sp ul{
+    display: block;
+  }
+}

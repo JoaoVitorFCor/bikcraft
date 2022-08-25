@@ -2,6 +2,7 @@
 @import'./utilidades/componentes.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
+@import './utilidades/formulario.css';
 
 /* Global */
 @import './global/global.css';
@@ -27,4 +28,8 @@
 /* Seguros */
 @import './seguros/vantagens.css';
 @import './seguros/perguntas.css';
+
+/* Contato */
+@import './contato/contato.css';
+@import './contato/lojas.css';
 
